@@ -97,5 +97,21 @@ footer {
 
 a {
   text-decoration: none;
-  color:grey;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media screen and (max-width: 989px) {
+
+  html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(64deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 500px;
+    font-family: 'helvetica neue';
+  }
+
+
+
+
 }
